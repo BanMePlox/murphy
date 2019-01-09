@@ -1,0 +1,87 @@
+/* Hecho por Pedro Jiménez */
+
+@charset "utf-8";
+
+body{
+    background-color: grey;
+    font-size: 2em;
+    font-family: sans-serif;
+}
+
+header h1{
+    text-align: center;
+}
+
+p{
+    position: absolute;
+}
+
+p:hover{
+    z-index: 5;
+}
+
+p.izquierda{
+    padding-left: 1%;
+    text-align: left;
+}
+
+p.derecha{
+    padding-right: 1%;
+    text-align: right;
+}
+
+p.naranja{
+    left: 20%;
+    right: 20%;
+    top: 13%;
+    text-align: center;
+    border: 5px solid rgb(133, 81, 23);
+    background-color: rgb(236, 168, 42);
+    padding-bottom: 2%;
+}
+
+p.amarillo{
+    width: 40%;
+    height: 30%;
+    border: 5px solid rgb(128, 155, 32);
+    right: 55%;
+    top: 25%;
+    background-color: rgb(212, 212, 44);
+}
+
+p.blanco{
+    border: 5px solid black;
+    bottom: 0%;
+    right: 55%;
+    width: 40%;
+    height: 30%;
+    background-color: white;
+}
+
+p.azul{
+    border: 5px solid rgb(11, 59, 150);
+    left: 55%;
+    top: 25%;
+    width: 40%;
+    height: 30%;
+    background-color: rgb(71, 71, 212);
+}
+
+p.rojo{
+    border: 5px solid rgb(182, 72, 28);
+    background-color: rgb(206, 48, 48);
+    bottom: 0%;
+    left: 55%;
+    width: 40%;
+    height: 30%;
+}
+
+p.verde{
+    top: 40%;
+    left: 30%;
+    right: 30%;
+    width: 40%;
+    height: 30%;
+    border: 5px solid rgb(13, 48, 5);
+    background-color: rgb(57, 128, 72);
+}
